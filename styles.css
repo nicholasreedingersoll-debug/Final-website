@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-body  {
-  background-color: black;
+ body  {
+  background-color: #171815;
 }
 
 .nav{
@@ -9,17 +8,17 @@ body  {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(11, 11, 11);
+  background-color: #171816;
   position: relative;
 }
 
 .nav a {
-  border:  rgb(204, 204, 203) solid 3px;
-  background-color: rgb(11, 11, 11);
+  border:  #3b3c37 solid 3px;
+  background-color: #171816;
   margin: 5px;
   padding: 15px;
   text-decoration: none;
-  color: rgb(140, 140, 139);
+  color: #8e9296;
 }
 
 .glasses {
@@ -29,23 +28,35 @@ body  {
 
 .title {
   text-align: center;
-  background-color: rgb(148, 144, 144);
-  border: black solid 5px;
+  background-color: #8e9296;
+  border: #3b3c37 solid 5px;
   margin: 0px;
-  color: rgb(44, 43, 43)
+  color: #3b3c37;
+  font-family: "Libre+Bondoni";
 }
 
 .wes {
   position: relative;
-  top: -50px;
   left: 55px;
+  top: -55px;
 }
 
 .scream {
-  border: black solid 3px;
-  background-color: rgb(148, 144, 144);
+  border: #3b3c37 solid 3px;
+  background-color: #8e9296;
   padding: 15px;
-  color: rgb(44, 43, 43);
-  font-family: "Libre+Bodoni";
+  color: #171816;
+  font-family: "Libre+Bondoni";
   text-align: center;
   }
+
+/* Libre Bodoni utility class
+   Replace the word `UNIQUE` with your uniquifier (alphanumeric/hyphen).
+   Example: `<h1 class="libre-bodoni-123abc">Title</h1>`
+*/
+.libre-bodoni-UNIQUE {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
