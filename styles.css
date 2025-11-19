@@ -21,21 +21,126 @@
   color: #8e9296;
 }
 
-.glasses {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: fit-content;
+img {
   
+  display: flex;
+  flex-direction: row;
 }
 
-.title {
+.glasses {   
+  animation: picpic 8s ease-in-out;
+  animation-fill-mode: forwards;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes picpic {
+    0%{
+        transform: translateX(-100%);
+    }
+    5%{
+        transform: translateX(-90%);
+    }
+    10%{
+        transform: translateX(-80%);
+    }
+    15%{
+        transform: translateX(-70%);
+    }
+    20%{
+        transform: translateX(-60%);
+    }
+    25%{
+        transform: translateX(-50%);
+    }
+    30%{
+        transform: translateX(-40%);
+    }
+    35%{
+        transform: translateX(-30%);
+    }
+    40%{
+        transform: translateX(-20%);
+    }
+    45%{
+        transform: translateX(-10%);
+    }
+    50%{
+        transform: translateX(0%);
+    }
+    55%{
+        transform: translateX(10%);
+    }
+    60%{
+        transform: translateX(20%);
+    }
+    65%{
+        transform: translateX(30%);
+    } 
+    70%{
+        transform: translateX(40%);
+    }
+    75%{
+        transform: translateX(50%);
+    }
+    80%{
+        transform: translateX(60%);
+    }
+    85%{
+        transform: translateX(70%);
+    }
+    90%{
+        transform: translateX(80%);
+    }
+    91%{
+      transform: translateX(90%);
+    }
+    92%{
+      transform: translateX(100%);
+    }
+    93%{
+        transform: translateX(110%);
+    } 
+    94%{
+      transform: translateX(120%);
+    }
+    95%{
+      transform: translateX(130%);
+    }
+    96%{
+      transform: translateX(140%);
+    }
+    97%{
+      transform: translateX(150%);
+    }
+    98%{
+      transform: translateX(160%);
+    }
+    99%{
+      transform: translateX(170%);
+    }
+    100%{
+      transform: translateX(180%);
+    }
+  }
+
+  .dave {   
+  animation: picpic 8s ease-in-out;
+  animation-delay: .4s;
+  animation-fill-mode: forwards;
+  width: fit-content;
+  }
+
+  .title {
   text-align: center;
   background-color: #8e9296;
   border: #3b3c37 solid 5px;
   margin: 0px;
   color: #3b3c37;
   font-family: "Libre+Bondoni";
+  font-size: 80px;
 }
 
 .wes {
@@ -51,4 +156,16 @@
   color: #171816;
   font-family: "Libre+Bondoni";
   text-align: center;
+}
+
+
+
+
+
+
+
+video {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
 }
