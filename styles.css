@@ -1,6 +1,7 @@
 
  body  {
   background-color: #171815;
+  overflow-x: hidden;
 }
 
 .nav{
@@ -28,8 +29,9 @@ img {
 }
 
 .glasses {   
-  animation: picpic 8s ease-in-out;
+  animation: picpic 9s ease-in-out;
   animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
   display: block;
   width: fit-content;
   margin-left: auto;
@@ -38,102 +40,33 @@ img {
 
 @keyframes picpic {
     0%{
-        transform: translateX(-100%);
-    }
-    5%{
-        transform: translateX(-90%);
-    }
-    10%{
-        transform: translateX(-80%);
-    }
-    15%{
-        transform: translateX(-70%);
-    }
-    20%{
-        transform: translateX(-60%);
-    }
-    25%{
-        transform: translateX(-50%);
-    }
-    30%{
-        transform: translateX(-40%);
-    }
-    35%{
-        transform: translateX(-30%);
-    }
-    40%{
-        transform: translateX(-20%);
-    }
-    45%{
-        transform: translateX(-10%);
-    }
-    50%{
-        transform: translateX(0%);
-    }
-    55%{
-        transform: translateX(10%);
-    }
-    60%{
-        transform: translateX(20%);
-    }
-    65%{
-        transform: translateX(30%);
-    } 
-    70%{
-        transform: translateX(40%);
-    }
-    75%{
-        transform: translateX(50%);
-    }
-    80%{
-        transform: translateX(60%);
-    }
-    85%{
-        transform: translateX(70%);
-    }
-    90%{
-        transform: translateX(80%);
-    }
-    91%{
-      transform: translateX(90%);
-    }
-    92%{
-      transform: translateX(100%);
-    }
-    93%{
-        transform: translateX(110%);
-    } 
-    94%{
-      transform: translateX(120%);
-    }
-    95%{
-      transform: translateX(130%);
-    }
-    96%{
-      transform: translateX(140%);
-    }
-    97%{
-      transform: translateX(150%);
-    }
-    98%{
-      transform: translateX(160%);
-    }
-    99%{
-      transform: translateX(170%);
+        transform: translateX(-150%);
     }
     100%{
       transform: translateX(180%);
     }
   }
 
-  .dave {   
-  animation: picpic 8s ease-in-out;
-  animation-delay: .4s;
+@keyframes daveg {
+  0%{
+    transform: translateX(-150%);
+  }
+  100%{
+    transform: translateX(200%);
+  }
+}
+
+.dave {   
+  animation: daveg 8s ease-in-out;
+  animation-delay: 1.2s;
   animation-fill-mode: forwards;
   width: fit-content;
-  }
+  position: relative;
+  top: -720px;
+  animation-iteration-count: infinite;
+}
 
-  .title {
+.title {
   text-align: center;
   background-color: #8e9296;
   border: #3b3c37 solid 5px;
@@ -141,6 +74,7 @@ img {
   color: #3b3c37;
   font-family: "Libre+Bondoni";
   font-size: 80px;
+  border-style: double dashed ;
 }
 
 .wes {
