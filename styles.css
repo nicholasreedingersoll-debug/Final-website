@@ -41,15 +41,37 @@
   color: #4d4f51;
 }
 
-.img {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  
+.ee{
+  animation: ats 32s;
+  transform: translate(-100vw);
 }
 
+.ve{
+  animation: ats 32s;
+  animation-delay: 1000ms;
+  transform: translate(-100vw);
+}
+
+.re{
+  animation: ats 32s;
+  animation-delay: 2000ms;
+  transform: translate(-100vw);
+}
+
+.te{
+  animation: ats 32s;
+  animation-delay: 2000ms;
+  transform: translate(-100vw);
+}
+
+@keyframes ats {
+  0%{
+    transform: translateX(-100vw);
+  }
+  100%{
+    transform: translateX(500vw);
+  }
+}
 .title {
   text-align: center;
   background-color: #8e9296;
