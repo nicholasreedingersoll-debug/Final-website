@@ -20,6 +20,9 @@
   padding: 15px;
   text-decoration: none;
   color: #8e9296;
+  margin: 10px;
+  font-family: impact, sans-serif;
+  border-radius: 5px;
 }
 
 .nav a:hover {
@@ -73,14 +76,16 @@
   }
 }
 .title {
-  text-align: center;
-  background-color: #8e9296;
-  border: #3b3c37 solid 5px;
-  margin: 0px;
-  color: #3b3c37;
-  font-family: "Libre+Bondoni";
-  font-size: 80px;
-  border-style: double dashed ;
+   font-family: Impact, sans-serif;
+   font-size: 4em;
+   color: #8e9296;
+   text-align: center;
+   letter-spacing: 4px;
+   text-shadow: 3px 3px 0px #171815;
+   border: #3b3c37 3px solid;
+   background-color: #4d4f51;
+   padding: 5px;
+  
 }
 
 .scream {
